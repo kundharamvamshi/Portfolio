@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | MERN Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#home" class="logo">Your<span>Portfolio</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">Dark</button>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <p class="eyebrow">MERN Developer | Full-Stack Web Developer</p>
+      <h1>I build modern web apps that are fast, scalable, and user-focused.</h1>
+      <p class="hero-text">
+        I am a full-stack developer specializing in MongoDB, Express.js, React.js, and Node.js.
+        I design clean interfaces, build secure APIs, and deliver complete products from idea to deployment.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn ghost">Let us Talk</a>
+      </div>
+    </section>
+
+    <section id="about" class="section card">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer with a strong focus on full-stack JavaScript development.
+        I enjoy solving real business problems through clean code, thoughtful architecture, and smooth user experience.
+        My work combines frontend precision with backend reliability to create products people enjoy using.
+      </p>
+    </section>
+
+    <section id="experience" class="section card">
+      <h2>Experience</h2>
+      <article class="timeline-item">
+        <h3>Freelance Full-Stack Developer</h3>
+        <p class="meta">2024 - Present</p>
+        <p>
+          Developed and deployed end-to-end MERN applications including admin dashboards, e-commerce systems,
+          and custom business tools with authentication, role-based access, and REST API integrations.
+        </p>
+      </article>
+      <article class="timeline-item">
+        <h3>Frontend Developer (Projects and Collaboration)</h3>
+        <p class="meta">2023 - 2024</p>
+        <p>
+          Built responsive and accessible React interfaces, reusable component systems, and optimized client-side
+          performance for better user engagement across desktop and mobile.
+        </p>
+      </article>
+    </section>
+
+    <section id="skills" class="section card">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <span>MongoDB</span>
+        <span>Express.js</span>
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>Next.js</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Tailwind CSS</span>
+        <span>Redux Toolkit</span>
+        <span>REST APIs</span>
+        <span>JWT Auth</span>
+        <span>Git and GitHub</span>
+        <span>Postman</span>
+        <span>Vercel and Render</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <h3>MERN E-Commerce Platform</h3>
+          <p>
+            A complete e-commerce application with product catalog, cart, checkout flow,
+            user authentication, and admin order management.
+          </p>
+          <a href="#">Live Demo</a>
+        </article>
+
+        <article class="project">
+          <h3>Task Management App</h3>
+          <p>
+            A productivity app with task CRUD operations, priority filters, due date tracking,
+            and secure login using JWT-based authentication.
+          </p>
+          <a href="#">Live Demo</a>
+        </article>
+
+        <article class="project">
+          <h3>Real-Time Chat App</h3>
+          <p>
+            A full-stack chat application with real-time messaging, online status,
+            and responsive UI for one-on-one communication.
+          </p>
+          <a href="#">Live Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>Contact</h2>
+      <p>
+        I am open to freelance work, full-time opportunities, and collaboration on meaningful products.
+        Reach out and I will get back to you.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:youremail@example.com">youremail@example.com</a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Copyright <span id="year"></span> Your Name. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
