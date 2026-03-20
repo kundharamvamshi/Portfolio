@@ -16,3 +16,12 @@ function showsidebar() {
 const footerYear = document.getElementById('year')
 const presentYear = new Date().getFullYear()
 footerYear.textContent = " " + presentYear + " "
+
+
+document.getElementById('see-more-btn').addEventListener('click', function() {
+  const hiddenProjects = document.querySelectorAll('.project-item.hidden');
+  hiddenProjects.forEach(project => {
+    project.classList.remove('hidden');
+  });
+  this.style.display = 'none'; 
+});
